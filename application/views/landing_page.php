@@ -150,7 +150,7 @@
     });
 
     var img = new Image();
-    img.src = "/mobitype/assets/img/background-landgind.png";
+    img.src = "/assets/img/background-landgind.png";
 
     img.onload = function( ) {
         $("#img1").css("background-image", "url('" + img.src + "')" );
