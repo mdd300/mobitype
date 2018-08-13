@@ -19,9 +19,10 @@ class Home extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 
-    function __Construct()
+    public function __construct()
     {
-        parent::Controller();
+        parent::__construct();
+        // Your own constructor code
     }
 
 	public function index()
