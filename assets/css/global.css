@@ -1,0 +1,32 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.center-x {
+  display: flex;
+  justify-content: center; }
+
+.center-y {
+  display: flex;
+  align-items: center; }
+
+.destaque {
+  display: contents;
+  color: #559ef6;
+  font-weight: bold; }
+
+.btn-config {
+  border-radius: 20px;
+  background-color: #559ef6;
+  color: #fff;
+  padding: 9px 25px; }
+
+.btn-config:hover {
+  cursor: pointer;
+  background-color: #fff !important;
+  color: #559ef6;
+  box-shadow: inset 0 0 0 3px #559ef6;
+  border-color: #559ef6; }
+
+/*# sourceMappingURL=global.css.map */
