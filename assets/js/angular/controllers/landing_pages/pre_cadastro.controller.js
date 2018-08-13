@@ -27,7 +27,7 @@ angular.module('app_landing').controller('landing_ctrl', ['$scope', '$http','$ti
                 $http({
 
               method: 'POST',
-              url: "/Home/saveCliente",
+              url: "/home/saveCliente",
               data: $.param({cadastro: $scope.cadastro}),
               headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
 
