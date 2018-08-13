@@ -54,23 +54,23 @@
     <img class="logo-img" src="<?=base_url()?>assets/img/logo.PNG">
     </div>
     <div class="content-form">
-        <div class="content-title-landing">
+        <div class="content-title-landing" id="footer">
             Bem-Vindo a Mobitype
         </div>
-        <div class="content-text-landing">
+        <div class="content-text-landing" id="footer2">
             Nosso site está em contrução no momento, mas não deixe de entrar em contato conosco, insira seus dados e em breve entraremos em contato.
         </div>
         <form class="form-landind">
 
             <div class="group">
-                <input type="text" required ng-model="cadastro.nome_cliente" ng-class="{'error-border': error.nome_cliente}">
+                <input type="text" id="inputID" required ng-model="cadastro.nome_cliente" ng-class="{'error-border': error.nome_cliente}">
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label ng-class="{'error-name': error.nome_cliente}">Nome</label>
             </div>
 
             <div class="group">
-                <input type="text" ng-class="{'error-border': error.email_cliente}" required ng-model="cadastro.email_cliente">
+                <input type="text" id="inputID1" ng-class="{'error-border': error.email_cliente}" required ng-model="cadastro.email_cliente">
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label ng-class="{'error-name': error.email_cliente}">Email</label>
@@ -150,7 +150,7 @@
     });
 
     var img = new Image();
-    img.src = "/assets/img/background-landgind.png";
+    img.src = "/mobitype/assets/img/background-landgind.png";
 
     img.onload = function( ) {
         $("#img1").css("background-image", "url('" + img.src + "')" );

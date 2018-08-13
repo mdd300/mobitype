@@ -13,6 +13,86 @@ angular.module('app_landing').controller('landing_ctrl', ['$scope', '$http','$ti
         "telefone_cliente": false
     }
 
+    $( window ).resize(function() {
+        var windowWidth = $(window).width();
+
+        if(windowWidth < 941) {
+            $("#inputID").focus(function () {
+                $("#footer").hide();
+                $("#footer2").hide();
+
+            });
+
+            $("#inputID").focusout(function () {
+                $("#footer").show();
+                $("#footer2").show();
+
+            });
+
+            $("#inputID1").focus(function () {
+                $("#footer").hide();
+                $("#footer2").hide();
+
+            });
+
+            $("#inputID1").focusout(function () {
+                $("#footer").show();
+                $("#footer2").show();
+
+            });
+
+            $("#txttelefone").focus(function () {
+                $("#footer").hide();
+                $("#footer2").hide();
+
+            });
+
+            $("#txttelefone").focusout(function () {
+                $("#footer").show();
+                $("#footer2").show();
+
+            });
+        }
+    });
+        var windowWidth = $(window).width();
+
+    if(windowWidth < 941) {
+        $("#inputID").focus(function () {
+            $("#footer").hide();
+            $("#footer2").hide();
+
+        });
+
+        $("#inputID").focusout(function () {
+            $("#footer").show();
+            $("#footer2").show();
+
+        });
+
+        $("#inputID1").focus(function () {
+            $("#footer").hide();
+            $("#footer2").hide();
+
+        });
+
+        $("#inputID1").focusout(function () {
+            $("#footer").show();
+            $("#footer2").show();
+
+        });
+
+        $("#txttelefone").focus(function () {
+            $("#footer").hide();
+            $("#footer2").hide();
+
+        });
+
+        $("#txttelefone").focusout(function () {
+            $("#footer").show();
+            $("#footer2").show();
+
+        });
+    }
     $scope.loader_send = false;
 
 
