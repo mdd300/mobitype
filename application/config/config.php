@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/mobitype/';
+$config['base_url'] = 'http://ec2-34-216-52-123.us-west-2.compute.amazonaws.com/';
 
 /*
 |--------------------------------------------------------------------------
