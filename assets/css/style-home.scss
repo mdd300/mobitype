@@ -148,3 +148,25 @@
 
   }
 }
+
+.btn-enviar-contato{
+
+
+  margin-left: 5%;
+  padding: 0 !important;
+  width: auto;
+  height: auto;
+  position: absolute;
+  margin-top: -3px;
+}
+.ul-footer{
+  display:table-row;
+
+  li{
+    display: inline-table;
+    list-style-type: none;
+    //margin: 0px 20px;
+    vertical-align: top;
+
+  }
+}

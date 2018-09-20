@@ -16,9 +16,6 @@
                     <a class="nav-link js-scroll-trigger" href="#about">Sobre Nós</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#portfolio">Clientes</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
                 </li>
             </ul>
@@ -27,7 +24,7 @@
 </nav>
 
 <header  class=" masthead text-center text-white d-flex">
-   <div style="background-image: url('<?=base_url()?>assets/img/ideia-img-1.jpg')" class="img-background-home-top parallax-window"></div>
+   <div style="background-image: url('<?=base_url()?>assets/img/laptop.jpg');background-size: cover;background-repeat: no-repeat;" class="img-background-home-top parallax-window"></div>
     <div class="container my-auto mt-5 responsive-top">
         <div class="row" >
             <div class="col-lg-10 mx-auto">
