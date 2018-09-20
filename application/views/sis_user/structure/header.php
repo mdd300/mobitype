@@ -39,13 +39,13 @@
 <body class="hold-transition skin-blue sidebar-mini" ng-app="app_landing">
 <div class="wrapper">
 
-    <header class="main-header">
+    <header class="main-header" >
 
         <!-- Logo -->
-        <a href="index2.html" class="logo">
+        <a  class="logo" style="background-color: #ff5353">
 
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg">Mobitype</span>
+            <span class="logo-lg">MobiSys</span>
         </a>
 
         <!-- Header Navbar: style can be found in header.less -->

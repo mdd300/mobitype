@@ -39,10 +39,10 @@
 <body class="hold-transition skin-blue sidebar-mini" ng-app="app_landing">
 <div class="wrapper">
 
-    <header class="main-header">
+    <header class="main-header" >
 
         <!-- Logo -->
-        <a href="index2.html" class="logo">
+        <a href="" class="logo" style="background-color: #ff5353">
 
             <!-- logo for regular state and mobile devices -->
             <span class="logo-lg">Mobitype</span>
