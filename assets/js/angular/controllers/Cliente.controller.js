@@ -14,14 +14,14 @@ angular.module('app_landing').controller('login_control', ['$scope', '$http','$t
                 $http({
 
                     method: 'POST',
-                    url: "/mobitype/home/login",
+                    url: "/home/login",
                     data: $.param({login: $scope.data}),
                     headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
 
                 }).then(function (response) {
 
                     if(response.data === "true"){
-                            window.location.href = "/mobitype/home/sistema";
+                            window.location.href = "/home/sistema";
                     }else{
 
                     }
@@ -42,7 +42,7 @@ angular.module('app_landing').controller('pedidos_control', ['$scope', '$http','
     $http({
 
         method: 'POST',
-        url: "/mobitype/Clientes/getPed",
+        url: "/Clientes/getPed",
         data: $.param({}),
         headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
 
@@ -100,14 +100,14 @@ angular.module('app_landing').controller('mob_control', ['$scope', '$http', func
                 $http({
 
                     method: 'POST',
-                    url: "/mobitype/home/login2",
+                    url: "/home/login2",
                     data: $.param({login: $scope.data}),
                     headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
 
                 }).then(function (response) {
 
                     if(response.data === "true"){
-                        window.location.href = "/mobitype/home/admin";
+                        window.location.href = "/home/admin";
                     }else{
 
                     }

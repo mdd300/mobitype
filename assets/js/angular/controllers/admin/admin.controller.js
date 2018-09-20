@@ -5,7 +5,7 @@ angular.module('app_landing').controller('users_control', ['$scope', '$http','$t
     $http({
 
         method: 'POST',
-        url: "/mobitype/clientes/listCli",
+        url: "/clientes/listCli",
         headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
 
     }).then(function (response) {
@@ -48,13 +48,13 @@ angular.module('app_landing').controller('addUsers_control', ['$scope', '$http',
                         $http({
 
                             method: 'POST',
-                            url: "/mobitype/clientes/add",
+                            url: "/clientes/add",
                             data: $.param({add: $scope.cliente}),
                             headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
 
                         }).then(function (response) {
                             $timeout(function () {
-                                window.location.href = "/mobitype/home/admin";
+                                window.location.href = "/home/admin";
                             }, 2000);
                         })
                     } else {
@@ -94,13 +94,13 @@ angular.module('app_landing').controller('addPedido_control', ['$scope', '$http'
                         $http({
 
                             method: 'POST',
-                            url: "/mobitype/pedido/add",
+                            url: "/pedido/add",
                             data: $.param({pedido: $scope.pedido, cliente: $(".id_cliente").val()}),
                             headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
 
                         }).then(function (response) {
                             $timeout(function () {
-                                window.location.href = "/mobitype/pedido";
+                                window.location.href = "/pedido";
                             }, 2000);
                         })
 
@@ -116,7 +116,7 @@ angular.module('app_landing').controller('pedidos_control', ['$scope', '$http','
     $http({
 
         method: 'POST',
-        url: "/mobitype/pedido/getPed",
+        url: "/pedido/getPed",
         headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
 
     }).then(function (response) {
