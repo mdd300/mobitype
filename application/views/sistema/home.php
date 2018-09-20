@@ -1,4 +1,9 @@
 <!-- Content Wrapper. Contains page content -->
+
+<script>$( function() {
+        $( document ).tooltip();
+    } );
+</script>
 <div class="content-wrapper" ng-controller="pedidos_control">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -38,8 +43,8 @@
                             </td>
                             <td><span class="badge bg-green">{{pedido.total}}%</span></td>
                             <td style="cursor: pointer">
-                                <a href="<?= base_url()?>Clientes/viewPage/?id={{pedido.pedido_id}}"><i class="fa fa-television"></i></a>
-                                <a id="popoverData" data-toggle="modal" data-target="#Modal-Pedidos" ng-click="modalDemandas($index)"><i class="fa fa-list"></i></a>
+                                <a title="Visualizar" href="<?= base_url()?>Clientes/viewPage/?id={{pedido.pedido_id}}"><i class="fa fa-television"></i></a>
+                                <a title="Listar demandas" id="popoverData" data-toggle="modal" data-target="#Modal-Pedidos" ng-click="modalDemandas($index)"><i class="fa fa-list"></i></a>
                             </td>
 
                         </tr>

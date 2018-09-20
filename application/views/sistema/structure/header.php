@@ -16,10 +16,12 @@
     <link rel="stylesheet" href="<?=base_url()?>assets/adm/bower_components/jvectormap/jquery-jvectormap.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="<?=base_url()?>assets/adm/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="<?=base_url()?>assets/adm/css/skins/_all-skins.min.css">
     <link href="<?= base_url() ?>assets/css/global.css" rel="stylesheet">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

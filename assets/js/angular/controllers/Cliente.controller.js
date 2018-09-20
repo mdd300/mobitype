@@ -42,7 +42,7 @@ angular.module('app_landing').controller('pedidos_control', ['$scope', '$http','
     $http({
 
         method: 'POST',
-        url: "/Clientes/getPed",
+        url: "/mobitype/Clientes/getPed",
         data: $.param({}),
         headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
 
