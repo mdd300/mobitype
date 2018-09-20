@@ -229,7 +229,7 @@
   background: #f4f4f5;
 }
 .skin-blue-light .sidebar-menu > li.active {
-  border-left-color: #3c8dbc;
+  border-left-color: #ff5353;
 }
 .skin-blue-light .sidebar-menu > li.active > a {
   font-weight: 600;
