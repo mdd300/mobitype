@@ -43,8 +43,8 @@
                             </td>
                             <td><span class="badge bg-green">{{pedido.total}}%</span></td>
                             <td style="cursor: pointer; color:  #ff5353">
-                                <a title="Visualizar" href="<?= base_url()?>Clientes/viewPage/?id={{pedido.pedido_id}}"><i class="fa fa-television"></i></a>
-                                <a title="Listar demandas" id="popoverData" data-toggle="modal" data-target="#Modal-Pedidos" ng-click="modalDemandas($index)"><i class="fa fa-list"></i></a>
+                                <a title="Visualizar" style="color:  #ff5353 !important;" href="<?= base_url()?>Clientes/viewPage/?id={{pedido.pedido_id}}"><i class="fa fa-television"></i></a>
+                                <a title="Listar demandas"  style="color:  #ff5353 !important;" id="popoverData" data-toggle="modal" data-target="#Modal-Pedidos" ng-click="modalDemandas($index)"><i class="fa fa-list"></i></a>
                             </td>
 
                         </tr>
