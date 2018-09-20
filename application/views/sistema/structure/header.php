@@ -45,7 +45,7 @@
         <a href="" class="logo" style="background-color: #ff5353">
 
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg">MobiSys</span>
+            <span class="logo-lg">MOBISYS</span>
         </a>
 
         <!-- Header Navbar: style can be found in header.less -->
