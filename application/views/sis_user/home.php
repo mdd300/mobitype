@@ -34,7 +34,7 @@
                                 <td>{{cliente.cliente_nome}}</td>
                                 <td>{{cliente.cliente_email}}</td>
                                 <td>{{cliente.cliente_data}}</td>
-                                <td style="cursor: pointer"><a href="<?= base_url()?>pedido/create/?id={{cliente.cliente_id}}"><i class="fa fa-edit"></i></a></td>
+                                <td style="cursor: pointer; color:  #ff5353"><a href="<?= base_url()?>pedido/create/?id={{cliente.cliente_id}}"><i class="fa fa-edit"></i></a></td>
                             </tr>
                             </tbody>
                             <tfoot>
