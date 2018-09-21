@@ -37,7 +37,7 @@
 						Login
 					</span>
 
-                <div class="wrap-input100 validate-input" data-validate = "Por favor digite um email valido, exemplo: ex@abc.xyz">
+                <div class="wrap-input100 validate-input">
                     <input class="input100" type="text" name="email" ng-model="data.nome_cliente">
                     <span class="focus-input100"></span>
                     <span class="label-input100">Email</span>
