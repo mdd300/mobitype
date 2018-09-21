@@ -26,7 +26,7 @@
                         <thead>
                             <tr>
                                 <th style="width: 10px">N˚</th>
-                                <th>Tarega</th>
+                                <th>Tarefa</th>
                                 <th>Progresso</th>
                                 <th style="width: 40px">%</th>
                                 <th style="width: 40px">Ações</th>
@@ -52,7 +52,7 @@
                         <tfoot>
                         <tr>
                             <th style="width: 10px">N˚</th>
-                            <th>Tarega</th>
+                            <th>Tarefa</th>
                             <th>Progresso</th>
                             <th style="width: 40px">%</th>
                             <th style="width: 40px">Ações</th>
