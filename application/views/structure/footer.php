@@ -57,6 +57,7 @@
 <script src="<?= base_url() ?>assets/js/creative.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 <script src="<?= base_url() ?>assets/js/home.js"></script>
+<script src="<?= base_url() ?>assets/js/active.js"></script>
 
 
 </body>
